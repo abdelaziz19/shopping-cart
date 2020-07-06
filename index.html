@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+  <title>Shopping Cart</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+
+  
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#"><span class="get">Shopping</span></a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Account
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Profile</a>
+        <a class="dropdown-item" href="#">Setting</a>
+        <a class="dropdown-item" href="#">Log out</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+
+<div class="container">
+  <div class="row shopcost">
+  <p class="cost-p"><i class="fas fa-shopping-cart icon-cart"><script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  </i>Shopping Bag Total: <span id="thecost">1800$</span></p>
+  </div>
+<div class="item-carts">
+  <div class="row itemitem">
+    <div class="col-xl-2 col-lg-2 col-sm-3">
+     <button class="X">X</button><button class="butheart fas fa-heart"></button>
+    </div>
+
+    <div class="col-xl-4 col-lg-4 col-sm-9">
+      <img class="img1" src="arma.jpg">
+    </div>
+
+    <div class="col-xl-3 col-lg-3 col-sm-4">
+      <p class="item-name"></p>
+    </div>
+
+    <div class="col-xl-2 col-lg-2 col-sm-4">
+      <p><button  class="plus">+</button><span class="item-number">0</span><button id="minpop" class="min">-</button></p>
+    </div>
+
+    <div class="col-xl-1 col-lg-1 col-sm-4">
+<p class="item-price">500$</p>
+    </div>
+  </div>
+
+  <div class="row itemitem">
+    <div class="col-xl-2 col-lg-2 col-sm-3">
+      <button class="X">X</button><button class="butheart fas fa-heart"></button>
+     </div>
+ 
+     <div class="col-xl-4 col-lg-4 col-sm-9">
+       <img class="img2" src="chaus.jpg">
+     </div>
+ 
+     <div class="col-xl-3 col-lg-3 col-sm-4">
+       <p class="item-name">
+
+
+
+
+
+       </p>
+     </div>
+ 
+     <div class="col-xl-2 col-lg-2 col-sm-4">
+       <p><button class="plus">+</button><span class="item-number">0</span><button id="minpop" class="min">-</button></p>
+     </div>
+ 
+     <div class="col-xl-1 col-lg-1 col-sm-4">
+ <p class="item-price">100$</p>
+     </div>
+  </div>
+
+  <div class="row itemitem">
+    <div class="col-xl-2 col-lg-2 col-sm-3">
+      <button class="X">X</button><button class="butheart fas fa-heart"></button>
+     </div>
+ 
+     <div class="col-xl-4 col-lg-4 col-sm-9">
+       <img class="img3" src="gucci.jpg">
+     </div>
+ 
+     <div class="col-xl-3 col-lg-3 col-sm-4">
+       <p class="item-name"></p>
+     </div>
+ 
+     <div class="col-xl-2 col-lg-2 col-sm-4">
+       <p><button class="plus">+</button><span class="item-number">0</span><button id="minpop" class="min">-</button></p>
+     </div>
+ 
+     <div class="col-xl-1 col-lg-1 col-sm-4">
+ <p class="item-price">1200$</p>
+     </div>
+  </div>
+  </div>
+</div>
+<script src="shop.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
